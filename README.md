@@ -17,6 +17,7 @@ Pre-trained model weights are not provided. The model can be trained from scratc
 <p align="center">
   The overall architecture of the GSE-Net and GPCFormer, Encoder and Decoder Structural Details.
   <img src="Figures/Fig1-BMP.bmp" alt="GSE-Net Architecture">
+  
   Structural details of GPCAM, GPGU, CAM & DDFG in GSE-Net.
   <img src="Figures/Fig2-BMP.bmp" alt="GSE-Net Architecture">
 </p>
