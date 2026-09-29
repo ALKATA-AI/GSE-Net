@@ -13,6 +13,7 @@
 ## Model Structure
 <p align="center">
   <img src="Figures/Fig1-BMP.bmp" alt="GSE-Net Architecture">
+  <img src="Figures/Fig2-BMP.bmp" alt="GSE-Net Architecture">
 </p>
 
 ## Comparison with other SE models
