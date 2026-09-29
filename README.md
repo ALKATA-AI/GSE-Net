@@ -18,7 +18,7 @@
 
 ## Comparison with other SE models
 <p align="center">
-  <img src="Figures/Table2 - GSE-Net.bmp" alt="GSE-Net Architecture">
+  <img src="Figures/Table2 - GSE-Net.png" alt="GSE-Net Architecture">
 </p>
 
 ## Acknowledgements 
