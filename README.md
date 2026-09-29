@@ -11,7 +11,9 @@
 ## Inference
 
 ## Model Structure
-![GSE-Net Architecture](Figures/Fig1-BMP.png)
+<p align="center">
+  <img src="Figures/Fig1-BMP.png" alt="GSE-Net Architecture">
+</p>
 
 ## Comparison with other SE models
 
