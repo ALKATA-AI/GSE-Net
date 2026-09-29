@@ -17,6 +17,9 @@
 </p>
 
 ## Comparison with other SE models
+<p align="center">
+  <img src="Figures/Table2 - GSE-Net.bmp" alt="GSE-Net Architecture">
+</p>
 
 ## Acknowledgements 
 We referred to PrimeK-Net, CBAM, CMGAN and Conformer to implement this.
