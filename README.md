@@ -22,6 +22,6 @@
 </p>
 
 ## Acknowledgements 
-We referred to PrimeK-Net, CBAM, CMGAN and Conformer to implement this.
+We referred to [PrimeK-Net](https://github.com/huaidanquede/PrimeK-Net), [CBAM](https://github.com/Peachypie98/CBAM) and [CMGAN](https://github.com/ruizhecao96/CMGAN) to implement this.
 
 ## Citation
