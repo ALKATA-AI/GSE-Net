@@ -40,9 +40,7 @@ We referred to [PrimeK-Net](https://github.com/huaidanquede/PrimeK-Net), [CBAM](
   booktitle={2026 34th International Conference on Electrical Engineering (ICEE)}, 
   title={GSE-Net: Multi-Scale Feature Extraction for Single-Channel Speech Enhancement}, 
   year={2026},
-  volume={},
-  number={},
   pages={299-303},
-  keywords={Modeling;Speech;Printing;Speech enhancement;Modules (abstract algebra);Architecture;Computer architecture;Conferences;Convolution;Transformers;Speech enhancement;Single Channel;Transformer;Channel Attention;GPCFormer},
-  doi={10.1109/ICEE70628.2026.11710484}}
+  doi={10.1109/ICEE70628.2026.11710484}
+}
 ```
