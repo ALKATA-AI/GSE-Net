@@ -35,3 +35,14 @@ Pre-trained model weights are not provided. The model can be trained from scratc
 We referred to [PrimeK-Net](https://github.com/huaidanquede/PrimeK-Net), [CBAM](https://github.com/Peachypie98/CBAM) and [CMGAN](https://github.com/ruizhecao96/CMGAN) to implement this.
 
 ## Citation
+
+@INPROCEEDINGS{11710484,
+  author={Kayed-Nezami, Alireza and Toroghi, Rahil Mahdian and Zareian, Hassan},
+  booktitle={2026 34th International Conference on Electrical Engineering (ICEE)}, 
+  title={GSE-Net: Multi-Scale Feature Extraction for Single-Channel Speech Enhancement}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={299-303},
+  keywords={Modeling;Speech;Printing;Speech enhancement;Modules (abstract algebra);Architecture;Computer architecture;Conferences;Convolution;Transformers;Speech enhancement;Single Channel;Transformer;Channel Attention;GPCFormer},
+  doi={10.1109/ICEE70628.2026.11710484}}
