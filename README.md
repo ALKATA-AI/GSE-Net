@@ -1,6 +1,6 @@
 # GSE-Net: Multi-Scale Feature Extraction for Single-Channel Speech Enhancement.
 ### Alireza KayedNezami, Rahil Mahdian Toroghi, Hassan Zareian
-**Official implementation of GSE-Net, accepted at [International Conference on Electrical Engineering (ICEE) 2026]([(https://ieeexplore.ieee.org/document/11710484).**
+**Official implementation of GSE-Net, accepted at [International Conference on Electrical Engineering (ICEE) 2026](https://ieeexplore.ieee.org/document/11710484).**
 
 
 
