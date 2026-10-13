@@ -11,7 +11,7 @@ Pre-trained model weights are not provided. The model can be trained from scratc
 
 ### 1. Python Version
 
-Python >= 3.6
+Python >= 3.8
 
 ### 2. Clone This Repository
 
