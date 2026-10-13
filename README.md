@@ -25,7 +25,7 @@ pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https
 
 **<p>4. Install the Python requirements:</p>**
    
-Please refer to [requirements.txt](https://github.com/ALKATA-AI/LUDAT-Net/blob/main/requirements.txt).
+Please refer to [requirements.txt](https://github.com/ALKATA-AI/GSE-Net/blob/main/requirements.txt).
 
 ```bash
 pip install -r requirements.txt
