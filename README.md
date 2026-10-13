@@ -7,67 +7,77 @@
 ## Note
 Pre-trained model weights are not provided. The model can be trained from scratch using the provided source code.
 
-## Pre-requisites
+## Prerequisites
 
-**<p>1. Python >= 3.6.</p>**
-   
-**<p>2. Clone this repository:</p>**
+### 1. Python Version
+
+Python >= 3.6
+
+### 2. Clone This Repository
 
 ```bash
 git clone https://github.com/ALKATA-AI/GSE-Net.git
+cd GSE-Net
 ```
 
-**<p>3. Install the Python requirements:</p>**
-   
-Install the dependencies listed in [requirements.txt](https://github.com/ALKATA-AI/GSE-Net/blob/main/requirements.txt) by running the following command from the repository root directory:
+### 3. Install the Python Requirements
+
+Install the dependencies listed in [`requirements.txt`](https://github.com/ALKATA-AI/GSE-Net/blob/main/requirements.txt) by running the following command from the repository root directory:
 
 ```bash
-pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu118
+python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
-**<p>4. Download and extract the <a href="https://datashare.ed.ac.uk/items/e3eb2725-46b6-40c6-88cf-3ccad62cd419">VoiceBank+DEMAND dataset</a>:</p>**
+### 4. Download and Extract the VoiceBank+DEMAND Dataset
 
-Resample all wav files to 16 kHz, and move the clean and noisy WAV files to <code>VoiceBank+DEMAND/wavs_clean</code> and <code>VoiceBank+DEMAND/wavs_noisy</code>, respectively. Alternatively, you can directly download the downsampled 16 kHz dataset <a href="https://drive.google.com/drive/folders/19I_thf6F396y5gZxLTxYIojZXC0Ywm8l">here</a>.
+Download and extract the [VoiceBank+DEMAND dataset](https://datashare.ed.ac.uk/items/e3eb2725-46b6-40c6-88cf-3ccad62cd419).
+
+Resample all WAV files to 16 kHz and place the clean and noisy WAV files in the following directories, respectively:
+
+- `VoiceBank+DEMAND/wavs_clean`
+- `VoiceBank+DEMAND/wavs_noisy`
+
+Alternatively, you can download the downsampled 16 kHz dataset [here](https://drive.google.com/drive/folders/19I_thf6F396y5gZxLTxYIojZXC0Ywm8l).
 
 ## Training
 
-For single GPU (Recommend), GSE-Net needs at least 15 GB GPU memery.
+Single-GPU training is recommended. At least 15 GB of GPU memory is required.
 
-Training parameters can be configured directly in `train.py` or provided as command-line arguments when running the script.
+Training parameters can be configured directly in `train.py` or provided as command-line arguments.
 
 ```bash
-python train.py `
- --input_clean_wavs_dir "VoiceBank+DEMAND/wavs_clean" `
- --input_noisy_wavs_dir "VoiceBank+DEMAND/wavs_noisy" `
- --checkpoint_path "checkpoints" `
- --config "config.json" `
- --input_training_file "VoiceBank+DEMAND/training.txt" `
- --input_validation_file "VoiceBank+DEMAND/test.txt"
+python train.py \
+  --input_clean_wavs_dir "VoiceBank+DEMAND/wavs_clean" \
+  --input_noisy_wavs_dir "VoiceBank+DEMAND/wavs_noisy" \
+  --checkpoint_path "checkpoints" \
+  --config "config.json" \
+  --input_training_file "VoiceBank+DEMAND/training.txt" \
+  --input_validation_file "VoiceBank+DEMAND/test.txt"
 ```
 
 ## Inference
 
-Inference parameters can be specified either directly in `inference.py` or provided as command-line arguments.
+Inference parameters can be specified directly in `inference.py` or provided as command-line arguments.
 
 ```bash
-python inference.py `
- --checkpoint_file=checkpoints\g_best `
- --input_clean_wavs_dir VoiceBank+DEMAND/wavs_clean `
- --input_noisy_wavs_dir VoiceBank+DEMAND/wavs_noisy `
- --input_test_file VoiceBank+DEMAND/test.txt `
- --output_dir generated_files/g_best
+python inference.py \
+  --checkpoint_file "checkpoints/g_best" \
+  --input_clean_wavs_dir "VoiceBank+DEMAND/wavs_clean" \
+  --input_noisy_wavs_dir "VoiceBank+DEMAND/wavs_noisy" \
+  --input_test_file "VoiceBank+DEMAND/test.txt" \
+  --output_dir "generated_files/g_best"
 ```
 
 ## Evaluation
 
-Evaluation parameters can be specified either directly in `evaluation.py` or provided as command-line arguments.
+Evaluation parameters can be specified directly in `evaluation.py` or provided as command-line arguments.
 
 ```bash
-python evaluation.py `
- --config_file config.json `
- --input_clean_wavs_dir VoiceBank+DEMAND/wavs_clean `
- --input_test_file VoiceBank+DEMAND/test.txt `
- --input_enhanced_wavs_dir generated_files/g_best
+python evaluation.py \
+  --config_file "config.json" \
+  --input_clean_wavs_dir "VoiceBank+DEMAND/wavs_clean" \
+  --input_test_file "VoiceBank+DEMAND/test.txt" \
+  --input_enhanced_wavs_dir "generated_files/g_best"
 ```
 
 ## Model Structure
