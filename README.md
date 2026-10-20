@@ -84,17 +84,17 @@ python evaluation.py \
 ## Model Structure
 <p align="center">
   The overall architecture of the GSE-Net and GPCFormer, Encoder and Decoder Structural Details.
-  <img src="Figures/Fig1-BMP.bmp" alt="GSE-Net Architecture">
+  <img src="Figures/Fig1.bmp" alt="GSE-Net Architecture">
 </p>
 
 <p align="center">
   Structural details of GPCAM, GPGU, CAM & DDFG in GSE-Net.
-  <img src="Figures/Fig2-BMP.bmp" alt="GSE-Net Architecture">
+  <img src="Figures/Fig2.bmp" alt="GSE-Net Architecture">
 </p>
 
 ## Comparison with other SE models
 <p align="center">
-  <img src="Figures/Table2 - GSE-Net.png" alt="GSE-Net Architecture">
+  <img src="Figures/Table2.png" alt="GSE-Net Architecture">
 </p>
 
 ## Acknowledgements 
