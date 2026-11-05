@@ -2,7 +2,7 @@
 
 **This repository contains the official implementation of the GSE-Net paper.**
 
-**Accepted at [International Conference on Electrical Engineering (ICEE) 2026](https://ieeexplore.ieee.org/document/11710484).**
+### Accepted at [International Conference on Electrical Engineering (ICEE) 2026](https://ieeexplore.ieee.org/document/11710484).
 
 **Authors:** Alireza Kayed-Nezami, Rahil Mahdian Toroghi, Hassan Zareian
 
