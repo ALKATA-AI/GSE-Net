@@ -1,6 +1,6 @@
 # GSE-Net: Multi-Scale Feature Extraction for Single-Channel Speech Enhancement.
 
-This repository contains the official implementation of the GSE-Net paper.
+This repository contains the official implementation of the [GSE-Net paper](https://iribuni.ac.ir/media/researchs/Kayed-IEEE-ICEE26.pdf).
 
 **Accepted at [International Conference on Electrical Engineering (ICEE) 2026](https://ieeexplore.ieee.org/document/11710484).**
 
