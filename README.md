@@ -29,7 +29,7 @@ cd GSE-Net
 
 ### 3. Install the Python Requirements
 
-Install the dependencies listed in [`requirements.txt`](https://github.com/ALKATA-AI/GSE-Net/blob/main/requirements.txt) by running the following command from the repository root directory:
+Install the dependencies listed in [requirements.txt](https://github.com/ALKATA-AI/GSE-Net/blob/main/requirements.txt) by running the following command from the repository root directory:
 
 ```bash
 python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu118
